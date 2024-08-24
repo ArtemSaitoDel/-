@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="Ru ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Бобр кликер</title>
+        <script src="main.js" defer></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+
+            <ul class="header__list">
+                <li class="header__item" id="header__logo"><a href="#" class="link__header">Бобр кликер</a></li>
+                <div class="header__counter">
+                    <li class="header__item" id="counterForClick">1 за клик</li>
+                    <li class="header__item" id="counterForSec">0 в секунду</li>
+                </div>
+            </ul>
+
+            <section class="clicker">
+                <div class="counter">
+                    <p class="clicker__counter" id="clickerCounter">0</p>
+                    <img src="img/counter.png" alt="ERROR" class="img__counter">
+                </div>
+                <div class="btn">
+                    <button class="btn__clicker" id="btnClicker">
+                        <img src="img/btn-clicker.png" alt="ERROR" class="img__btn">
+                    </button>
+                </div>
+            </section>
+
+        </header>
+
+        <main>
+
+            <section class="shop">
+
+                <div class="pluss__one">
+                    <button class="btn__shop" id="oneClick">
+                        <h3 class="name">Бобр-работник</h3>
+                        <div class="btn__info">
+                            <p class="info">+1 бобр за клик</p>
+                            <div class="price__info">
+                                <p class="price" id="infoPriceOneClick">10</p>
+                                <img src="img/counter.png" alt="" class="img__price">
+                            </div>
+                        </div>
+                    </button>
+                    <button class="btn__shop" id="oneAuto">
+                        <h3 class="name">Робот-бобр</h3>
+                        <div class="btn__info">
+                            <p class="info">+1 бобр в секунду</p>
+                            <div class="price__info">
+                                <p class="price" id="infoPriceOneAuto">100</p>
+                                <img src="img/counter.png" alt="" class="img__price">
+                            </div>
+                        </div>
+                    </button>
+                </div>
+
+            </section>
+
+        </main>
+
+    </body>
+</html>

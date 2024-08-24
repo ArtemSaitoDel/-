@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+/* header */
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: url("../img/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.header__list {
+    list-style: none;
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+.link__header {
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgba(0, 41, 122, 1);
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: bold;
+}
+
+#header__logo {
+    width: 50px;
+    margin-left: 320px;
+}
+
+.header__counter {
+    margin-left: 680px;
+    padding-top: 40px;
+    font-size: 20px;
+    color: rgba(0, 41, 122, 1);
+    font-family: "Montserrat Alternates", sans-serif;
+    text-align: right;
+}
+
+/* counter */
+
+.clicker {
+    margin-top: 200px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+}
+
+.clicker__counter {
+    font-size: 30px;
+    font-family: "MuseoModerno", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.img__counter {
+    width: 45px;
+    margin-left:10px;
+}
+
+.btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn__clicker {
+    background: none;
+    border: none;
+}
+
+.img__btn {
+    padding: 0;
+    width: 500px;
+}
+
+/* shop */
+
+.shop {
+    background: linear-gradient(rgb(173, 84, 0), rgb(85, 45, 2));
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.pluss__one {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.btn__shop {
+    width: 400px;
+    background: #ff9d00;
+    border-radius: 40px;
+    border: 2px rgb(114, 58, 16);
+    padding: 30px;
+    text-align: left;
+    color: white;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.btn__shop:hover {
+    background: #ff8400;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.btn__info {
+    display: flex;
+}
+
+.price__info {
+    display: flex;
+    float: right;
+    margin: auto;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.img__price {
+    width: 30px;
+    margin-left: 10px;
+}
